@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="='width=device-width, initial-scale=1.0">
+    <title>MY website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/86235c8122.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/img-2.jpg" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Front-End & AI Developer</p>
+            <h1>Hi, I'm <span>Adesh</span><br>From India</h1>
+        </div>
+    </div>
+</div>
+<!---------------about--------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/img-3.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1> 
+                <p>I'm a passionate student pursuing a Bachelor's degree in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning at SRM University. My academic journey has been marked by a deep fascination with cutting-edge technologies, particularly in the realms of AI, machine learning, deep learning, and computer vision. I'm driven by a relentless curiosity to explore the limitless possibilities of these fields. Beyond the world of algorithms and data, I'm equally enthralled by the creative side of technology. Front-end development, encompassing HTML, CSS, and JavaScript, allows me to blend my technical skills with artistic flair. With each passing day, I strive to expand my horizons, mastering new concepts, and turning them into real-world solutions. Join me on this exciting journey of continuous learning and innovation!</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>Model Deployment</span><br>Deploy machine learning models into production systems or cloud environments.</li>
+                        <li><span>Frameworks and Libraries</span><br>Familiar with popular AI and ML frameworks such as TensorFlow, PyTorch, scikit-learn, and Keras.</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Aug 2022-Sep 2022</span><br>Internship at BORN GROUP</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>Graduate in B.tech CSE - AI/ML from SRM University</li>
+                        <li><span>2020</span><br>12th Grade from SAIRAM VIDYALAYA CBSE</li>
+                        <li><span>2018</span><br>10th Grade from SAIRAM VIDYALAYA CBSE</li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!-------------------------services------------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code" style="color: #f2f2f2;"></i>
+                <h2>Web Design</h2>
+                <p>Web design involves creating visually appealing and user-friendly websites by combining graphic design and programming skills to enhance online user experiences.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop" style="color: #ffffff;"></i>
+                <h2>UI/UX Design</h2>
+                <p>Web design involves creating visually appealing and user-friendly websites by combining graphic design and programming skills to enhance online user experiences.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-puzzle-piece" style="color: #ffffff;"></i>
+                <h2>Machine Learning Model Development</h2>
+                <p>Build custom machine learning models for clients to solve specific business problems, such as predictive analytics, recommendation systems, or natural language processing applications.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart" style="color: #ffffff;"></i>
+                <h2>Data Analysis and Visualization</h2>
+                <p>Analyze and visualize data to provide insights and actionable recommendations to businesses or researchers.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-------------------------portfolio------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work-1" >
+                <div class="layer">
+                    <h3>License plate detector</h3>
+                    <p>A computer vision system that identifies and extracts license plate numbers from images or video streams, commonly used for automated vehicle tracking, security, and law enforcement applications.</p>
+                    <a href="https://github.com/adesh-commits"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-2.png" >
+                <div class="layer">
+                    <h3>FaceMask detector</h3>
+                    <p>A face mask detector is an AI-based system that analyzes images or video frames to identify whether individuals are wearing face masks, commonly used for enforcing mask-wearing policies in public spaces during health crises.</p>
+                    <a href="https://github.com/adesh-commits"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-3.jpg" >
+                <div class="layer">
+                    <h3>YouTube Homepage using Front-End</h3>
+                    <p>A visually appealing YouTube homepage using front-end development techniques, offering users an engaging and user-friendly interface to explore and interact with video content.</p>
+                    <a href="https://github.com/adesh-commits"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="https://github.com/adesh-commits" class="btn">See more</a>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
